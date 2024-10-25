@@ -16,7 +16,7 @@ int main()
 	printf("Enter the element to be deleted: ");
 	scanf("%d",&ele);
 
-	int count= - 1;
+	int count= 0;
 	for(int i=0; i<n; i++) {
 		if(arr[i]==ele) {
 			count++;
